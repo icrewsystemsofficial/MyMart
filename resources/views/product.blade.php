@@ -46,7 +46,7 @@
             <div class="carousel-item">
                 <div class="row">
                     @foreach ($products as $item)
-                    @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
+                    @if($item->id > '9'&& $item->id < '14' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
                                 class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                                 alt="..."></a></div>
                 @endif
@@ -57,7 +57,7 @@
         <div class="carousel-item">
             <div class="row">
                 @foreach ($products as $item)
-                @if($item->id > '19'&& $item->id < '24' ) <div class="col-3"><a href="detail/{{$item['id']}}">
+                @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}">
                         <img class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                             alt="..."></a></div>
             @endif
@@ -136,7 +136,7 @@
             <div class="carousel-item">
                 <div class="row">
                     @foreach ($products as $item)
-                    @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}">
+                    @if($item->id > '9'&& $item->id < '14' ) <div class="col-3"><a href="detail/{{$item['id']}}">
                             <img class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                                 alt="..."></a></div>
                 @endif
@@ -147,7 +147,7 @@
         <div class="carousel-item">
             <div class="row">
                 @foreach ($products as $item)
-                @if($item->id > '19'&& $item->id < '24' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
+                @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
                             class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                             alt="..."></a></div>
             @endif
@@ -210,7 +210,7 @@
             <div class="carousel-item">
                 <div class="row">
                     @foreach ($products as $item)
-                    @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
+                    @if($item->id > '9'&& $item->id < '14' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
                                 class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                                 alt="..."></a></div>
                 @endif
@@ -221,7 +221,7 @@
         <div class="carousel-item">
             <div class="row">
                 @foreach ($products as $item)
-                @if($item->id > '19'&& $item->id < '24' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
+                @if($item->id > '14'&& $item->id < '19' ) <div class="col-3"><a href="detail/{{$item['id']}}"> <img
                             class="d-block w-100" src="{{$item['gallery']}}" style="height:150px; width:50px;"
                             alt="..."></a></div>
             @endif
