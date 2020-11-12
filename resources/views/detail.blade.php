@@ -18,7 +18,10 @@
         <form action="{{url('add_to_cart')}}" method="POST">
 @csrf
 <input type="hidden" name="product_id" value={{$product['id']}}>
-<button class="btn btn-primary">Add to cart</button>
+<button type="button" class="btn btn-secondary btn-icon-label">
+    <span class="btn-inner--text">Add to cart</span>
+    <span class="btn-inner--icon"><i class="fas fa-shopping-cart"></i></span>
+</button>
 </form>
       </div>
     </div>
